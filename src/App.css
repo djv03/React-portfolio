@@ -1,3 +1,21 @@
-*{
-    background-color: #242424;
+
+
+  #darkmodebtn{
+    padding: 13px;
+    margin: 13px;
+    background-color: aqua;
+    color: black;
+    
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
   }
+
+ .dark {
+background-color: #1e1e1e;
+color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #1e1e1e;
+}
