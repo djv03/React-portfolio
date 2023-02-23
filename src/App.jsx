@@ -14,6 +14,7 @@ function App() {
    const [theme, setTheme] = useState('light');
 
    const toogleMode = () => {
+     localStorage.setItem('theme', theme);
         if (theme === 'light') {
           setTheme('dark');
         } else {
