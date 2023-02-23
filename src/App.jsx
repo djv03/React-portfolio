@@ -10,6 +10,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
 
+//checking git updation
+
 function App() {
    const [theme, setTheme] = useState('light');
 
